@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/FraserKemp/JuniorAppTasks">
+   <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Slimming world app Tasks</h3>
@@ -32,7 +32,12 @@
 
 ## About The Project
 
-![](../../Desktop/Screen shot.png)
+<div align="center">
+   <a href="https://github.com/FraserKemp/JuniorAppTasks">
+      <img src="./src/assets/app.png" alt="Logo" width="160" height="350">
+   </a>
+</div>
+
 
 <!-- GETTING STARTED -->
 
