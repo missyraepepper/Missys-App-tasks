@@ -32,6 +32,8 @@
 
 ## About The Project
 
+![](../../Desktop/Screen shot.png)
+
 <!-- GETTING STARTED -->
 
 ### Installation
