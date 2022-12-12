@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View, FlatList, Image, TouchableOpacity, Alert } from 'react-native';
-import globoTickets from '../data/TicketsDB';
+import { Text, View, FlatList, Image, TouchableOpacity } from 'react-native';
+import globoTickets from '../../../data/TicketsDB';
+import styles from './Tickets.style';
 
 const Tickets = ({ navigation }) => {
   const ticketItem = ({ item }) => {
@@ -34,38 +35,5 @@ const Tickets = ({ navigation }) => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    paddingTop: 15,
-    paddingBottom: 15,
-  },
-  ticket: {
-    flexDirection: 'column',
-  },
-  img: {
-    height: 180,
-    width: '100%',
-  },
-  ticketTitle: {
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-  ticketsShortDescription: {
-    fontWeight: '600',
-    textAlign: 'center',
-    paddingTop: 5,
-  },
-  ticketDescription: {
-    fontWeight: '600',
-    padding: 15,
-  },
-  ticketButton: {
-    fontWeight: 'bold',
-    textAlign: 'center',
-    paddingBottom: 15,
-    paddingTop: 5,
-  },
-});
 
 export default Tickets;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, Text, View, ActivityIndicator, FlatList, Image } from 'react-native';
+import { Text, View, ActivityIndicator, FlatList, Image } from 'react-native';
+import styles from './News.style';
 
 const News = () => {
   const [isLoaded, setDataLoaded] = useState(true);
@@ -22,10 +23,10 @@ const News = () => {
 
   const newsItem = ({ item }) => {
     return (
-      <View style={styles.storylist}>
+      <View style={styles.storyList}>
         <Image style={styles.thumb} source={{ uri: item.url }} />
-        <Text style={styles.storytext}>{item.title}</Text>
-        <Text style={styles.storytext}>{item.url}</Text>
+        <Text style={styles.storyText}>{item.title}</Text>
+        <Text style={styles.storyText}>{item.url}</Text>
       </View>
     );
   };
@@ -39,21 +40,5 @@ const News = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    paddingTop: 20,
-  },
-  storylist: {
-    paddingBottom: 20,
-  },
-  thumb: {
-    height: 100,
-    width: '100%',
-  },
-  storytext: {
-    padding: 10,
-  },
-});
 
 export default News;

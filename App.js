@@ -1,24 +1,15 @@
 import React from 'react';
-import { StyleSheet, useColorScheme } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Home from './src/components/Home';
-import Tickets from './src/components/Tickets';
-import Contact from './src/components/contact';
-import TicketPurchase from './src/components/TicketPurchase';
-import News from './src/components/News';
-
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Home from './src/components/Pages/Home/Home';
+import Tickets from './src/components/Pages/Tickets/Tickets';
+import Contact from './src/components/Pages/Contact/Contact';
+import TicketPurchase from './src/components/Pages/TicketPurchase/TicketPurchase';
+import News from './src/components/Pages/News/News';
 
 const Stack = createStackNavigator();
 
 const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
   return (
     <>
       <NavigationContainer>
@@ -64,7 +55,5 @@ const App = () => {
     </>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default App;
