@@ -24,7 +24,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#tasks">Tasks</a></li>
-    <li><a href="#help">Tasks</a></li>
+    <li><a href="#help">Help</a></li>
   </ol>
 </details>
 
@@ -219,7 +219,7 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
 
 <!-- HELP -->
 
-## TIPS AND TRICKS / HELP
+## HELP
 
 - React native navigation Docs (https://reactnavigation.org/docs/native-stack-navigator/)
 - React native docs - you can search for any component in here as well (https://reactnative.dev/docs/getting-started)
