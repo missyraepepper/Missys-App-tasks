@@ -62,7 +62,7 @@
 
 ## Usage
 
-This project is to help ease juniors / graduates into app feature with react native. This is a carry on from the Reggie Dawson tutorial on plural sight. We have added in some extra tasks to help easy you into writing react native code.
+This project is to help ease juniors / graduates into app feature creation with react native. This is a carry on from the Reggie Dawson tutorial on plural sight. We have added in some extra tasks to help easy you into writing react native code.
 
 <!-- TASKS -->
 
