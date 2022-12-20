@@ -6,6 +6,7 @@ import Tickets from './src/components/Pages/Tickets/Tickets';
 import Contact from './src/components/Pages/Contact/Contact';
 import TicketPurchase from './src/components/Pages/TicketPurchase/TicketPurchase';
 import News from './src/components/Pages/News/News';
+import UserProfile from "./src/components/Pages/UserProfile/UserProfile";
 
 const Stack = createStackNavigator();
 
@@ -25,7 +26,7 @@ const App = () => {
               headerShown: false,
             }}
           >
-            {(props) => <Home {...props} username={'*username*'} />}
+            {(props) => <Home {...props} username={'missyraepepper'} />}
           </Stack.Screen>
           <Stack.Screen
             name={'Tickets'}
@@ -49,6 +50,11 @@ const App = () => {
             name={'News'}
             component={News}
             options={{ headerTitleAlign: 'center', headerTitle: 'Latest news' }}
+          />
+          <Stack.Screen
+              name={'UserProfile'}
+              component={UserProfile}
+              options={{ headerShown:false }}
           />
         </Stack.Navigator>
       </NavigationContainer>

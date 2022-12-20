@@ -19,6 +19,9 @@ const Menu = () => {
         <Text style={styles.buttonText}>News</Text>
       </TouchableOpacity>
       <View style={styles.line} />
+      <TouchableOpacity onPress={() => navigation.navigate('UserProfile')} style={styles.button}>
+        <Text style={styles.buttonText}>UserProfile</Text>
+      </TouchableOpacity>
     </View>
   );
 };

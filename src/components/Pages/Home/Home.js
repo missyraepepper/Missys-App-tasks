@@ -8,8 +8,8 @@ const Home = (props) => {
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.appLogo} source={images.appCatLogo} />
-      <Text styles={styles.title}>App Tasks</Text>
-      <Text styles={styles.subtitle}>{props.username}</Text>
+      <Text style={styles.title}>App Tasks</Text>
+      <Text style={styles.subtitle}>{props.username}</Text>
       <View style={styles.textContainer}>
         <Text style={styles.content}>SW react native app challenges</Text>
       </View>
