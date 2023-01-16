@@ -15,7 +15,9 @@ const PageHeader = ({
         {leftButtonIcon}
       </TouchableOpacity>
       <Text style={styles.titleText}>{titleText}</Text>
-      <TouchableOpacity style={styles.rightButton}>{rightButtonIcon}</TouchableOpacity>
+      <TouchableOpacity style={styles.rightButton} onPress={rightButtonPress}>
+        {rightButtonIcon}
+      </TouchableOpacity>
     </SafeAreaView>
   );
 };
